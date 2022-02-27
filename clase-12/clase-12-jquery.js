@@ -109,6 +109,6 @@ function verificarMayorDeEdad(edadUsuario) {
 };
 
 const edad = 18;
-verificarMayorDeEdad(18)
+verificarMayorDeEdad(edad)
   .then(mensaje => console.log(mensaje))
   .catch(error => console.error(error));
